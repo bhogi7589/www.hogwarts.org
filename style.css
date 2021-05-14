@@ -175,3 +175,33 @@ div.nav-marquee-space {
 .icon {
     float: right;
 }
+
+.list-group {
+    list-style-type: none;
+}
+
+div.flex {
+    display: flex;
+}
+
+div.block {
+    display: block;
+}
+
+.news-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr {
+    height: 5px;
+}
+
+#news-ul {
+    padding-bottom: 75px;
+}
+
+#news-ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
