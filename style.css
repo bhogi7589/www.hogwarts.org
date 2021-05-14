@@ -1,0 +1,177 @@
+html {
+    scroll-behavior: smooth;
+}
+            
+body {
+    text-align: center;
+    background-color: #0ff;
+}
+            
+#brand {
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 30px
+}
+            
+.navbar {
+    font-weight: 700;
+    transition: opacity 0.4s;
+    opacity: 0.85;
+    font-size: 20px;
+    box-shadow: 0 3px 2px #777;
+}
+            
+.nav-item, .navbar-toggle, .navbar-brand {
+    transition: transform 0.4s;
+    opacity: 1;
+}
+.navbar-brand:hover {transform: scale(1.15)}
+            
+.navbar-toggle:hover {transform: scale(1.15)}
+            
+.nav-item:hover {transform: scale(1.15)}
+
+.navbar:hover {
+    opacity: 1;
+}
+            
+a:link {
+    color: blue;
+}
+            
+a:visited {
+    color: blue
+}
+            
+a:hover {
+    color: black;
+}
+            
+a:active {
+    color: black;
+}
+            
+marquee {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+            
+marquee a:link{
+    color: yellow;
+}
+            
+marquee a:visited{
+    color: yellow;
+}
+            
+marquee a:hover{
+    color: white;
+}
+            
+marquee a:active{
+    color: white;
+}
+            
+#home {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/38/Hogwarts_model_studio_tour.jpg);
+    width: 100%;
+    height: 1365px;
+}
+            
+#contact-us {
+    font-size: 20px;
+}
+
+div.space {
+    height: 20px;
+}
+
+div.section-space {
+    height: 40px;
+}
+
+div.nav-space {
+    height: 35px;
+}
+
+.section-header {
+    color: blue;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.main-header {
+    color: red;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+div.nav-marquee-space {
+    height: 60px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.sect {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+    border-radius: 9px;
+}
+
+.sect img {
+    width: 100%;
+}
+
+#campus-life {
+    background-color: #fff;
+}
+
+.special {
+    width: 33.33%;
+    padding: 0px 50px;
+}
+
+.spec {
+    width: 50%;
+    padding: 0px 50px;
+}
+
+.row {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.text-bold {font-weight: bold}
+
+.container {
+    background-color: wheat;
+}
+
+.btn-text {
+    float: left;
+}
+
+.achievement-head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    border: none;
+    border-width: 0px;
+    outline: none;
+}
+
+.icon {
+    float: right;
+}
