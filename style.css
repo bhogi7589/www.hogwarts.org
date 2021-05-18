@@ -21,7 +21,7 @@ body {
     box-shadow: 0 3px 2px #777;
 }
 
-.navbar-toggler {outline: none!important; font-size: 30px}
+.navbar-toggler {outline: none!important; border: none!important; font-size: 30px}
             
 .nav-item, .navbar-toggler, .navbar-brand {
     transition: transform 0.4s;
@@ -182,14 +182,6 @@ div.nav-marquee-space {
     list-style-type: none;
 }
 
-div.flex {
-    display: flex;
-}
-
-div.block {
-    display: block;
-}
-
 .news-header {
     font-size: 20px;
     font-weight: bold;
@@ -227,3 +219,9 @@ a.card-link:visited {color: black!important; text-decoration: none!important}
 a.card-link:hover {color: black!important; text-decoration: none!important}
 
 a.card-link:active {color: black!important; text-decoration: none!important}
+
+.clickable {cursor: pointer}
+
+.no-border-radius {border-radius: 0px 2.5px 0px 0px!important}
+
+div.line {height: 3%!important}
