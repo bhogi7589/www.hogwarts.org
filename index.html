@@ -1,33 +1,29 @@
 <!doctype html>
-<html id="hogwarts">
+<html id="hogwarts" lang="en">
     <head>
         <title>Hogwarts</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="https://images-na.ssl-images-amazon.com/images/I/A1NXrEs2muL.jpg">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar fixed-top bg-dark navbar-dark shadow p-4 mb-4" id="navbar">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" id="brand" href="#hogwarts">🏰 Hogwarts</a>
-                    <button class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
+                <a class="navbar-brand" id="brand" href="#hogwarts">🏰 Hogwarts</a>
+                <button class="navbar-toggler" id="toggle" data-toggle="collapse" data-target="#my-navbar"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="my-navbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item"><a href="#campus-life">⛱️ Campus Life</a></li>
-                        <li class="nav-item"><a href="#achievements">🎓 Achievements</a></li>
-                        <li class="nav-item"><a href="#whats-new">💡 What's New</a></li>
-                        <li class="nav-item"><a href="#alumni">👨‍🎓 Alumni</a></li>
-                        <li class="nav-item"><a href="#contact-us">📞 Contact Us</a></li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#campus-life" class="nav-link">⛱️ Campus Life</a></li>
+                        <li class="nav-item"><a href="#achievements" class="nav-link">🎓 Achievements</a></li>
+                        <li class="nav-item"><a href="#whats-new" class="nav-link">💡 What's New</a></li>
+                        <li class="nav-item"><a href="#alumni" class="nav-link">👨‍🎓 Alumni</a></li>
+                        <li class="nav-item"><a href="#contact-us" class="nav-link">📞 Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,21 +40,21 @@
                 <div class="row">
                     <div class="col special">
                         <div class="sect">
-                            <img class="img-rounded" src="https://i.pinimg.com/originals/a5/94/0c/a5940cceb9e7917424818d4039f64626.jpg">
+                            <img class="rounded" src="https://i.pinimg.com/originals/a5/94/0c/a5940cceb9e7917424818d4039f64626.jpg">
                             <h5 class="text-bold"><kbd>Quidditch Field</kbd></h5>
                             <p class="text-muted">Students play Quidditch, the Wizarding sport, there.</p>
                         </div>
                     </div>
                     <div class="col special">
                         <div class="sect">
-                            <img class="img-rounded" src="https://static0.srcdn.com/wordpress/wp-content/uploads/2019/07/Harry-Potter-Gryffindor-Common-Room-Feature.jpg">
+                            <img class="rounded" src="https://static0.srcdn.com/wordpress/wp-content/uploads/2019/07/Harry-Potter-Gryffindor-Common-Room-Feature.jpg">
                             <h5 class="text-bold"><kbd>Gryffindor Tower</kbd></h5>
                             <p class="text-muted">Students sorted into the Gryffindor house live there.</p>
                         </div>
                     </div>
                     <div class="col special">
                         <div class="sect">
-                            <img class="img-rounded" src="https://static.wikia.nocookie.net/harrypotter/images/7/7e/SlytherinCommonRoom.png/revision/latest?cb=20161207074723">
+                            <img class="rounded" src="https://static.wikia.nocookie.net/harrypotter/images/7/7e/SlytherinCommonRoom.png/revision/latest?cb=20161207074723">
                             <h5 class="text-bold"><kbd>Slytherin Tower</kbd></h5>
                             <p class="text-muted">Students sorted into the Slytherin house live there.</p>
                         </div>
@@ -67,14 +63,14 @@
                 <div class="row">
                     <div class="col spec">
                         <div class="sect">
-                            <img class="img-rounded" src="https://images.ctfassets.net/usf1vwtuqyxm/10V5UBcXXQQAY6qMYIeowK/e2065ce548dce583f409933177937546/HufflepuffCommonroom_PM_.jpg">
+                            <img class="rounded" src="https://images.ctfassets.net/usf1vwtuqyxm/10V5UBcXXQQAY6qMYIeowK/e2065ce548dce583f409933177937546/HufflepuffCommonroom_PM_.jpg">
                             <h5 class="text-bold"><kbd>Hufflepuff Tower</kbd></h5>
                             <p class="text-muted">Students sorted into the Hufflepuff house live there.</p>
                         </div>
                     </div>
                     <div class="col spec">
                         <div class="sect">
-                            <img class="img-rounded" src="https://static.wikia.nocookie.net/harrypotter/images/5/54/Ravenclaw_common_room.jpg/revision/latest/scale-to-width-down/350?cb=20161218043704">
+                            <img class="rounded" src="https://static.wikia.nocookie.net/harrypotter/images/5/54/Ravenclaw_common_room.jpg/revision/latest/scale-to-width-down/350?cb=20161218043704">
                             <h5 class="text-bold"><kbd>Ravenclaw Tower</kbd></h5>
                             <p class="text-muted">Students sorted into the Ravenclaw house live there.</p>
                         </div>
@@ -85,35 +81,51 @@
             <div id="achievements">
                 <div class="nav-space"></div>
                 <h1 class="section-header">Achievements</h1>
-                <button class="bg-primary achievement-head" data-toggle="collapse" data-target="#triwizard" >
-                    <span class="btn-text">The Triwizard Tournament</span><i class="icon fa fa-sort-desc"></i>
-                </button>
-                <div id="triwizard" class="collapse">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-  		                <img src="https://static3.srcdn.com/wordpress/wp-content/uploads/2019/02/23-The-Triwizard-Tournament.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5" class="img-responsive img-thumbnail" >
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link bg-primary achievement-head outline-none" data-toggle="collapse" href="#triwizard" >
+                                <span class="btn-text">The Triwizard Tournament</span><i class="icon fa fa-sort-desc"></i>
+                            </a>
+                        </div>
+                        <div id="triwizard" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+  		                                <img src="https://static3.srcdn.com/wordpress/wp-content/uploads/2019/02/23-The-Triwizard-Tournament.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5" class="img-responsive img-thumbnail" >
+                                    </div>
+                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12 movie-text" >
+                                        <h5 class="text-success text-left">
+                                            Won the Triwizard Tournament
+                                        </h5>
+                                        <p>The Triwizard Tournament is a wizarding competition in which the three most popular wizarding schools participate.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text" >
-                        <h5 class="text-success text-left">
-                            Won the Triwizard Tournament
-                        </h5>
-                        <p>The Triwizard Tournament is a wizarding competition in which the three most popular wizarding schools participate.</p>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link bg-primary achievement-head outline-none" data-toggle="collapse" href="#best" >
+                                <span class="btn-text">The Best Wizarding School</span><i class="icon fa fa-sort-desc"></i>
+                            </a>
+                        </div>
+                        <div id="best" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+  		                                <img src="https://i.pinimg.com/originals/d4/07/6e/d4076e8e8404628312eb98cf87939ecf.jpg" class="img-responsive img-thumbnail" >
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text" >
+                                        <h5 class="text-success text-left">
+                                            Was declared the best wizarding school of all
+                                        </h5>
+                                        <p>Hogwarts was declared the best wizarding school of all by the Ministry of Magic.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <br><br><br><br><br><br><br>
-                </div>
-                <button class="bg-primary achievement-head" data-toggle="collapse" data-target="#best" >
-                    <span class="btn-text">The Best Wizarding School</span><i class="icon fa fa-sort-desc"></i>
-                </button>
-                <div id="best" class="collapse">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-  		                <img src="https://i.pinimg.com/originals/d4/07/6e/d4076e8e8404628312eb98cf87939ecf.jpg" class="img-responsive img-thumbnail" >
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie-text" >
-                        <h5 class="text-success text-left">
-                            Was declared the best wizarding school of all
-                        </h5>
-                        <p>Hogwarts was declared the best wizarding school of all by the Ministry of Magic.</p>
-                    </div>
-                    <br><br><br><br><br><br><br>
                 </div>
             </div>
             <div class="section-space"></div>
