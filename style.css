@@ -76,9 +76,10 @@ marquee a:active{
 }
             
 #home {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/38/Hogwarts_model_studio_tour.jpg);
-    width: 100%;
-    height: 1365px;
+    background-image: url(https://www.thepatent.news/wp-content/uploads/2020/09/hogwarts-4843724_1920.jpg);
+    width: 960px;
+    height: 720px;
+    background-size: contain;
 }
             
 #contact-us {
